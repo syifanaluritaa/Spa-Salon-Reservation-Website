@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salon Cantika Beauty</title>
+
+  <link rel="icon" href="salon.png" />
+  <link rel="stylesheet" href="Tubes.css" />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+
+  <div class="promo-banner" style="background: #ff69b4; color: white; text-align: center; padding: 8px; font-size: 14px; font-weight: bold;">
+    🎉 PROMO BULAN INI: Diskon 20% untuk semua Paket Spa Khusus! <a href="#" onclick="switchPage('layanan')" style="color: yellow; text-decoration: underline; margin-left: 10px;">Booking Sekarang</a>
+  </div>
+
+  <header class="awal">
+    <div class="awal_div">
+      <img src="salon.png" alt="Logo Salon Cantika Beauty" />
+    </div>
+    <nav class="navigasi">
+      <ul>
+        <li><a href="#" id="menu-beranda" class="active-menu" onclick="switchPage('beranda')">Beranda</a></li>
+        <li><a href="#" id="menu-sejarah" onclick="switchPage('sejarah')">Sejarah</a></li>
+        <li><a href="#" id="menu-layanan" onclick="switchPage('layanan')">Layanan & Harga</a></li>
+        <li><a href="#" id="menu-galeri" onclick="switchPage('galeri')">Galeri Foto</a></li>
+        <li><a href="#" id="menu-faq" onclick="switchPage('faq')">FAQ</a></li>
+        <li><a href="#" id="menu-kontak" onclick="switchPage('kontak')">Kontak & Peta</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    
+    <div id="page-beranda" class="page-content active">
+      <section id="Beranda" class="Utama">
+        <h1>Salon Cantika Beauty</h1>
+        <p>
+          Selamat datang di Salon Cantika Beauty — tempat di mana kecantikan alami kamu dipancarkan dengan perawatan terbaik dari para profesional kami.
+          Kami menghadirkan suasana nyaman, pelayanan ramah, dan produk berkualitas tinggi untuk rambut, wajah, dan tubuh.
+          Temukan versi terbaik dari dirimu bersama kami!
+        </p>
+      </section>
+      
+      <section id="Testimoni" style="padding: 20px 0;">
+        <h2>Apa Kata Mereka?</h2>
+        <p>Ulasan jujur dari para pelanggan setia Salon Cantika Beauty:</p>
+        <div class="testi-slider" style="background: #fdfdfd; padding: 20px; border-left: 5px solid #ff69b4; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+          <details open style="margin-bottom: 10px; cursor: pointer;">
+            <summary style="font-weight: bold; color: #ff69b4;">Rania Putri (Mahasiswi) ⭐⭐⭐⭐⭐</summary>
+            <p style="font-style: italic; margin-top: 5px; padding-left: 15px;">
+              "Tempatnya nyaman banget, wangi aromaterapinya bikin rileks. Creambath di sini juaranya, pijatan terapisnya pas banget di kepala!"
+            </p>
+          </details>
+          <details style="margin-bottom: 10px; cursor: pointer;">
+            <summary style="font-weight: bold; color: #ff69b4;">Dian Sastro (Karyawan Swasta) ⭐⭐⭐⭐⭐</summary>
+            <p style="font-style: italic; margin-top: 5px; padding-left: 15px;">
+              "Udah langganan Facial Treatment di sini sejak 2021. Mukaku yang gampang jerawatan jadi jauh lebih kalem berkat produk alami mereka."
+            </p>
+          </details>
+        </div>
+      </section>
+    </div>
+
+    <div id="page-sejarah" class="page-content">
+      <section class="Isi">
+        <figure>
+          <img src="https://dewimagazine.b-cdn.net/web/img/images/WEB%203.jpg" alt="Cantika Beauty Salon" />
+          <figcaption>Cantika Beauty Salon Bandung</figcaption>
+        </figure>
+
+        <article id="Sejarah">
+          <h2>Sejarah Salon Cantika Beauty</h2>
+          <p>
+            Cantika Beauty Salon berdiri pada tahun 2010 di Kota Bandung dengan tekad sederhana namun bermakna besar — menghadirkan tempat perawatan kecantikan yang tidak hanya fokus pada tampilan luar, tetapi juga memberikan ketenangan, kenyamanan, dan rasa percaya diri bagi setiap pelanggan.
+          </p>
+          <p>
+            Awalnya, salon ini hanya berupa ruang kecil di rumah pendiri kami, Ibu Ratna Sari, yang memiliki latar belakang sebagai ahli kecantikan dan terapis spa profesional. Dengan peralatan sederhana dan semangat tinggi, beliau mulai melayani teman dan tetangga sekitar. Dari mulut ke mulut, pelayanan ramah dan hasil yang memuaskan membuat Cantika Beauty mulai dikenal luas.
+          </p>
+          <p>
+            Seiring waktu, permintaan pelanggan semakin meningkat. Pada tahun 2013, Cantika Beauty resmi membuka cabang pertamanya dengan fasilitas lengkap — mulai dari ruang perawatan rambut, wajah, tubuh, hingga ruang relaksasi aromaterapi. Tahun-tahun berikutnya menjadi masa pertumbuhan yang pesat, terutama setelah memperkenalkan konsep “Natural Beauty Experience”.
+          </p>
+          <blockquote>
+            "Kecantikan sejati bukan tentang menutupi kekurangan, tetapi tentang merawat keunikan diri."
+          </blockquote>
+          <p>
+            Kini, setelah lebih dari satu dekade beroperasi, Cantika Beauty Salon telah memiliki lebih dari 30 tenaga profesional bersertifikat dan ratusan pelanggan setia. Kami juga menjadi mitra dalam berbagai acara besar seperti wedding expo, pelatihan kecantikan, hingga kegiatan sosial untuk perempuan di daerah pedesaan.
+          </p>
+        </article>
+      </section>
+    </div>
+
+    <div id="page-layanan" class="page-content">
+      <section id="Daftar" class="Opening">
+        <h2>Daftar Layanan Salon Cantika Beauty</h2>
+        <p>
+          Cantika Beauty Salon menghadirkan berbagai layanan perawatan lengkap yang dirancang untuk memenuhi kebutuhan kecantikan dan perawatan diri Anda dari ujung rambut hingga ujung kaki.
+        </p>
+        <ol>
+          <li>Perawatan Rambut (Hair Care)
+            <ul>
+              <li>Hair Spa dan Creambath</li>
+              <li>Hair Mask</li>
+              <li>Hair Coloring dan Highlighting</li>
+              <li>Hair Smoothing dan Rebonding</li>
+              <li>Scalp Treatment</li>
+            </ul>
+          </li>
+          <li>Perawatan Wajah (Facial Treatment)
+            <ul>
+              <li>Basic Facial</li>
+              <li>Brightening Facial</li>
+              <li>Anti-Aging Facial</li>
+              <li>Acne Facial</li>
+              <li>Hydrating Facial</li>
+            </ul>
+          </li>
+          <li>Perawatan Tubuh (Body Treatment)
+            <ul>
+              <li>Body Scrub</li>
+              <li>Body Spa</li>
+              <li>Body Mask</li>
+              <li>Body Massage</li>
+              <li>Reflexology</li>
+            </ul>
+          </li>
+          <li>Perawatan Kuku (Nail Treatment)
+            <ul>
+              <li>Manicure dan Pedicure</li>
+              <li>Nail Spa</li>
+              <li>Nail Art dan Gel Polish</li>
+            </ul>
+          </li>
+          <li>Makeup Profesional (Makeup Artistry)
+            <ul>
+              <li>Daily Makeup</li>
+              <li>Graduation Makeup</li>
+              <li>Party Makeup</li>
+              <li>Wedding Makeup</li>
+            </ul>
+          </li>
+          <li>Perawatan Spa Khusus (Special Spa Packages)
+            <ul>
+              <li>Paket Relaksasi Total</li>
+              <li>Paket Spa Alami</li>
+              <li>Paket Couple Spa</li>
+              <li>Paket Premium Bride</li>
+            </ul>
+          </li>
+        </ol>
+
+        <div class="pricelist-container" style="margin-top: 30px; overflow-x: auto;">
+          <h3>Price List & Durasi Perawatan Terfavorit</h3>
+          <table style="width: 100%; border-collapse: collapse; margin-top: 10px; min-width: 500px;">
+            <thead>
+              <tr style="background-color: #f2f2f2; border-bottom: 2px solid #ddd; text-align: left;">
+                <th style="padding: 12px;">Jenis Perawatan</th>
+                <th style="padding: 12px;">Durasi</th>
+                <th style="padding: 12px;">Harga Mulai Dari</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="border-bottom: 1px solid #eee;">
+                <td style="padding: 12px;">Hair Spa + Creambath</td>
+                <td style="padding: 12px;">60 Menit</td>
+                <td style="padding: 12px;">Rp 120.000</td>
+              </tr>
+              <tr style="border-bottom: 1px solid #eee;">
+                <td style="padding: 12px;">Brightening Facial</td>
+                <td style="padding: 12px;">45 Menit</td>
+                <td style="padding: 12px;">Rp 150.000</td>
+              </tr>
+              <tr style="border-bottom: 1px solid #eee;">
+                <td style="padding: 12px;">Full Body Massage & Scrub</td>
+                <td style="padding: 12px;">90 Menit</td>
+                <td style="padding: 12px;">Rp 250.000</td>
+              </tr>
+              <tr style="border-bottom: 1px solid #eee;">
+                <td style="padding: 12px;">Nail Art + Gel Polish</td>
+                <td style="padding: 12px;">60 Menit</td>
+                <td style="padding: 12px;">Rp 110.000</td>
+              </tr>
+              <tr style="border-bottom: 1px solid #eee;">
+                <td style="padding: 12px;">Graduation / Party Makeup</td>
+                <td style="padding: 12px;">90 Menit</td>
+                <td style="padding: 12px;">Rp 350.000</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="booking-form" style="margin-top: 40px; padding: 25px; border: 1px solid #ff69b4; border-radius: 8px; background-color: #fff9fb;">
+          <h3>Formulir Reservasi Online</h3>
+          <p>Ingin melakukan perawatan tanpa antre? Isi formulir di bawah ini untuk memesan jadwal:</p>
+          
+          <form id="formReservasi">
+            <div style="margin-bottom: 15px;">
+              <label style="display:block; margin-bottom:5px; font-weight: bold;">Nama Lengkap:</label>
+              <input type="text" name="nama" required placeholder="Contoh: Anita Kirana" style="width: 100%; padding: 8px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px;">
+            </div>
+            <div style="margin-bottom: 15px;">
+              <label style="display:block; margin-bottom:5px; font-weight: bold;">Nomor WhatsApp:</label>
+              <input type="tel" name="whatsapp" required placeholder="Contoh: 081234567xxx" style="width: 100%; padding: 8px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px;">
+            </div>
+            <div style="margin-bottom: 15px;">
+              <label style="display:block; margin-bottom:5px; font-weight: bold;">Pilih Jenis Perawatan:</label>
+              <select name="perawatan" style="width: 100%; padding: 8px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px;">
+                <option value="Perawatan Rambut (Hair Care)">Perawatan Rambut (Hair Care)</option>
+                <option value="Perawatan Wajah (Facial Treatment)">Perawatan Wajah (Facial Treatment)</option>
+                <option value="Perawatan Tubuh (Body Treatment)">Perawatan Tubuh (Body Treatment)</option>
+                <option value="Perawatan Kuku (Nail Treatment)">Perawatan Kuku (Nail Treatment)</option>
+                <option value="Makeup Profesional">Makeup Profesional</option>
+                <option value="Paket Spa Khusus">Paket Spa Khusus</option>
+              </select>
+            </div>
+            <div style="margin-bottom: 15px;">
+              <label style="display:block; margin-bottom:5px; font-weight: bold;">Tanggal & Jam Kunjungan:</label>
+              <input type="datetime-local" name="jadwal" required style="width: 100%; padding: 8px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px;">
+            </div>
+            <button type="submit" style="padding: 10px 20px; background-color: #ff69b4; color: white; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;">Kirim Reservasi</button>
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <div id="page-galeri" class="page-content">
+      <section id="Galeri">
+        <h2>Galeri Kegiatan & Fasilitas</h2>
+        <p>Intip sekilas kenyamanan suasana dan hasil kerja tim ahli di Salon Cantika Beauty:</p>
+        
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=600" alt="Fasilitas Salon">
+            <p>Area Kompartemen Rambut</p>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?q=80&w=600" alt="Hair Treatment">
+            <p>Layanan Hair Styling</p>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?q=80&w=600" alt="Spa Treatment">
+            <p>Ruang Relaksasi Spa</p>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?q=80&w=600" alt="Nail Care">
+            <p>Manicure & Nail Art</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div id="page-faq" class="page-content">
+      <section id="Faq">
+        <h2>Pertanyaan yang Sering Diajukan (FAQ)</h2>
+        <p>Klik pada pertanyaan untuk melihat jawaban langsung:</p>
+        
+        <div style="margin-top: 15px;">
+          <details style="padding: 10px; border: 1px solid #ddd; margin-bottom: 8px; border-radius: 4px;">
+            <summary style="font-weight: bold; cursor: pointer; color: #333;">Apakah harus reservasi terlebih dahulu sebelum datang?</summary>
+            <p style="margin-top: 8px; color: #666;">Sangat disarankan untuk melakukan reservasi online lewat formulir di atas agar Anda tidak perlu mengantre lama, terutama pada hari Sabtu dan Minggu.</p>
+          </details>
+          <details style="padding: 10px; border: 1px solid #ddd; margin-bottom: 8px; border-radius: 4px;">
+            <summary style="font-weight: bold; cursor: pointer; color: #333;">Apakah produk perawatan aman untuk ibu hamil dan menyusui?</summary>
+            <p style="margin-top: 8px; color: #666;">Ya, konsep kami adalah "Natural Beauty Experience". Sebagian besar bahan dasar treatment wajah dan tubuh kami menggunakan ekstrak bahan organik yang aman untuk ibu hamil/menyusui.</p>
+          </details>
+          <details style="padding: 10px; border: 1px solid #ddd; margin-bottom: 8px; border-radius: 4px;">
+            <summary style="font-weight: bold; cursor: pointer; color: #333;">Metode pembayaran apa saja yang diterima?</summary>
+            <p style="margin-top: 8px; color: #666;">Kami menerima pembayaran tunai (cash), transfer bank, debit card, serta scan QRIS.</p>
+          </details>
+        </div>
+      </section>
+    </div>
+
+    <div id="page-kontak" class="page-content">
+      <section id="Kontak">
+        <h2>Kontak Kami</h2>
+        <p>
+          Kami di Cantika Beauty Salon percaya bahwa komunikasi yang baik dengan pelanggan adalah kunci dari pelayanan yang berkualitas. Karena itu, kami selalu terbuka untuk setiap pertanyaan, saran, maupun permintaan konsultasi dari Anda.
+        </p>
+        <p><strong>Alamat:</strong> Jl. Mawar No. 15, Kelurahan Citarum, Kecamatan Bandung Wetan, Kota Bandung, Jawa Barat</p>
+        <p><strong>Jam Operasional:</strong><br>
+          Senin – Jumat: 09.00 – 20.00 WIB<br>
+          Sabtu – Minggu: 09.00 – 21.00 WIB
+        </p>
+      </section>
+
+      <section id="Map">
+        <h2>Lokasi Salon Cantika Beauty</h2>
+        <p>Gunakan peta interaktif di bawah ini untuk menemukan lokasi kami:</p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.916723223126!2d107.6148386!3d-6.9005704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e64c399ad22b%3A0x633e7d23d8c1be27!2sCitarum%2C%20Bandung%20Wetan%2C%20Bandung%20City%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1710000000000!5m2!1sen!2sid"
+          width="100%"
+          height="450"
+          style="border:0; border-radius: 8px;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </section>
+    </div>
+
+    <aside>
+      <div class="social-media">
+        <ul>
+          <li><a href="#" target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a></li>
+          <li><a href="#" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a></li>
+          <li><a href="#" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></li>
+        </ul>
+      </div>
+
+      <input type="checkbox" id="info-toggle" hidden>
+      <label for="info-toggle" style="cursor:pointer; display:block;">
+        <img 
+          src="https://glints.com/id/lowongan/wp-content/uploads/2022/04/cara-mengambil-foto-profesional-2.jpg" 
+          alt="Foto Profesional Cantika Beauty"
+          style="width: 70px; border-radius: 10px; margin: 10px auto; display: block;"
+        >
+      </label>
+      <div class="info-box">
+        <p><strong>Ibu Ratna Sari</strong><br>
+        Pendiri dan pemilik <strong>Cantika Beauty Salon</strong>. Dikenal karena keahliannya dalam perawatan kecantikan alami.</p>
+      </div>
+    </aside>
+  </main>
+
+  <footer>
+    <p class="state">Oleh Syifa Nalurita Azahra</p>
+  </footer>
+
+  <script>
+    // 1. FUNGSI UNTUK GANTI HALAMAN (SPA)
+    function switchPage(pageId) {
+      // Sembunyikan semua section kontainer halaman
+      var pages = document.getElementsByClassName('page-content');
+      for (var i = 0; i < pages.length; i++) {
+        pages[i].classList.remove('active');
+      }
+      
+      // Tampilkan halaman yang dipilih
+      document.getElementById('page-' + pageId).classList.add('active');
+
+      // Hapus status link aktif dari semua menu navigasi
+      var menuLinks = document.querySelectorAll('.navigasi ul li a');
+      menuLinks.forEach(function(link) {
+        link.classList.remove('active-menu');
+      });
+
+      // Berikan status aktif pada menu yang sedang diklik
+      document.getElementById('menu-' + pageId).classList.add('active-menu');
+      
+      // Tarik scroll otomatis ke atas setiap ganti page
+      window.scrollTo(0, 0);
+    }
+
+    // 2. LOGIK PENGIRIMAN DATA FORM RESERVASI KE BACKEND (PHP)
+    document.getElementById('formReservasi').addEventListener('submit', function(e) {
+      e.preventDefault(); 
+
+      var formData = new FormData(this);
+
+      fetch('simpan.php', {
+        method: 'POST',
+        body: formData
+      })
+      .then(response => response.json())
+      .then(data => {
+        if(data.status === 'success') {
+          alert('Berhasil! ' + data.message);
+          document.getElementById('formReservasi').reset(); 
+        } else {
+          alert('Gagal: ' + data.message);
+        }
+      })
+      .catch(error => {
+        console.error('Error:', error);
+        alert('Terjadi error saat mencoba menyambung ke file backend php.');
+      });
+    });
+  </script>
+</body>
+</html>
