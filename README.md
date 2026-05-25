@@ -34,8 +34,6 @@ Sebuah aplikasi web modern, responsif, dan interaktif untuk sistem informasi dan
 
 ---
 
----
-
 ## Pratinjau Antarmuka
 
 ### Mode Display 1
@@ -52,6 +50,7 @@ Sebuah aplikasi web modern, responsif, dan interaktif untuk sistem informasi dan
   <br>
   <em>Gambar 2.3: Mode Display untuk Kebutuhan Presentasi Formal.</em>
 </p>
+
 ---
 
 ## 📂 Struktur Proyek
