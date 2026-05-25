@@ -40,7 +40,7 @@ Sebuah aplikasi web modern, responsif, dan interaktif untuk sistem informasi dan
 
 ### Mode Display 1
 <p align="center">
-  <img src="Images/Mode gelap.png" alt="Dashboard Dark Mode" width="100%" style="border-radius: 8px; border: 1px solid #334155;">
+  <img src="Images/Display 1.png" alt="Dashboard Dark Mode" width="100%" style="border-radius: 8px; border: 1px solid #334155;">
   <br>
   <em>Gambar 2.1: Tampilan Utama Dashboard.</em>
 </p>
@@ -48,7 +48,7 @@ Sebuah aplikasi web modern, responsif, dan interaktif untuk sistem informasi dan
 
 ### Mode Display 2
 <p align="center">
-  <img src="Images/Display Mode.png" alt="Dashboard Light Mode" width="100%" style="border-radius: 8px; border: 1px solid #cbd5e1;">
+  <img src="Images/Display 2.png" alt="Dashboard Light Mode" width="100%" style="border-radius: 8px; border: 1px solid #cbd5e1;">
   <br>
   <em>Gambar 2.3: Mode Display untuk Kebutuhan Presentasi Formal.</em>
 </p>
